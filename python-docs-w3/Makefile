@@ -1,9 +1,5 @@
-build-image:
-	docker build -t python-tutorials .
+up:
+	docker-compose up
 
-run-container:
-	docker run python-tutorials
-
-run: 
-	make build-image
-	make run-container
+exec:
+	docker-compose exec python-docs-w3 sh
