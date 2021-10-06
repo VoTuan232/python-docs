@@ -13,4 +13,4 @@ print('-------------DIVIDE--------------------')
 print(10/3)
 print(10//3)
 
-print("program exited.")
+print("program exited...")
