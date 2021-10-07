@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+    python-locus-docs:
+        build: .
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+        ports:
+            - "8444:8089"
+        volumes:
+            - .:/app
+    # master:
+    #     image: locustio/locust
+    #     ports:
+    #      - "8089:8089"
+    #     volumes:
+    #       - ./:/mnt/locust
+    #     command: -f /mnt/locust/locustfile.py --master -H http://master:8089
+
+    # worker:
+    #     image: locustio/locust
+    #     volumes:
+    #       - ./:/mnt/locust
+    #     command: -f /mnt/locust/locustfile.py --worker --master-host master
+    
