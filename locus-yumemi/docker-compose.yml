@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    python-locus-yumemi:
+        build: .
+        stdin_open: true
+        tty: true
+        ports:
+            - "8089:8089"
+            - "8001:8001"
+            - "8002:8002"
+        volumes:
+            - .:/app
