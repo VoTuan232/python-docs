@@ -7,6 +7,7 @@ services:
         tty: true        # docker run -t
         ports:
             - "8444:8089"
+            # - "6666:6666"
         volumes:
             - .:/app
     # master:

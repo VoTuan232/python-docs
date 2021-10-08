@@ -1,0 +1,4 @@
+1. delays after each task executition.
+2. unit: seconds
+
+wait_time = between(0.5, 10) // make each user wait between 0.5 and 10 seconds between every task execution

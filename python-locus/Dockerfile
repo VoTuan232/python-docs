@@ -14,3 +14,6 @@ RUN python -m pip install -r requirements.txt
 WORKDIR /app
 COPY . /app
 
+WORKDIR /app/root
+
+
