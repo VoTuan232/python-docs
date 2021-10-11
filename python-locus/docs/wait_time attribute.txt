@@ -2,3 +2,8 @@
 2. unit: seconds
 
 wait_time = between(0.5, 10) // make each user wait between 0.5 and 10 seconds between every task execution
+
+
+# wait_time attribute
+A User’s wait_time method makes it easy to introduce delays after each task executition. 
+If no wait_time is specified, the next task will be executed as soon as one finishes.
