@@ -1,0 +1,10 @@
+version: '3'
+services:
+    python-vitural-assistant:
+        build: .
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+        ports:
+            - "1111:1111"
+        volumes:
+            - .:/app
