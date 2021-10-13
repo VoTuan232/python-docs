@@ -1,27 +1,33 @@
-# For more information, please refer to https://aka.ms/vscode-docker-python
-FROM python:3.8-slim-buster
+# FROM python:3.8
 
-# Keeps Python from generating .pyc files in the container
-ENV PYTHONDONTWRITEBYTECODE=1
+# COPY . /app
+# WORKDIR /app
 
-# Turns off buffering for easier container logging
-ENV PYTHONUNBUFFERED=1
+# RUN apt-get update && apt-get upgrade -y
+# RUN apt-get install espeak -y
+# RUN apt-get install ffmpeg -y
+# RUN apt-get install libespeak1 -y
+# # RUN sudo apt-get install alsa-utils
+# RUN python -m pip install -U -r requirements.txt
 
-# Install pip requirements
-COPY requirements.txt .
-# RUN pip install espeak
-# RUN pip install ffmpeg 
-# RUN pip install libespeak1 
-RUN python -m pip install -r requirements.txt
-# RUN pip install pyttsx3==2.71
 
-WORKDIR /app
+FROM ubuntu:latest
+
+RUN apt-get update && \
+      apt-get -y install sudo
+
 COPY . /app
 
-# Creates a non-root user with an explicit UID and adds permission to access the /app folder
-# For more info, please refer to https://aka.ms/vscode-docker-python-configure-containers
-# RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
-# USER appuser
+RUN sudo apt-get install -y python3-pip
 
-# During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
-# CMD ["python", "app.py"]
+RUN pip install --upgrade wheel
+
+# RUN sudo apt-get install alsa-utils
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install espeak -y
+RUN apt-get install ffmpeg -y
+RUN apt-get install libespeak1 -y
+RUN pip install pyttsx3
+
+
+WORKDIR /app

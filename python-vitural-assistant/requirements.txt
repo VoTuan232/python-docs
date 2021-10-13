@@ -1,6 +1,6 @@
 # To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
 # numpy==1.21.2
-espeak==0.6.3
-ffmpeg==0.2.0
-libespeak1==21.04
+# espeak==0.6.3
+# ffmpeg==0.2.0
+# libespeak1==21.04
 pyttsx3==2.90
