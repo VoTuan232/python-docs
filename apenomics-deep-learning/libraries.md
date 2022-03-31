@@ -1,2 +1,11 @@
 - numpy
 - file extension: ipynb
+- importlib
+- datetime
+- pymongo
+- re
+- web3
+- dotenv
+- os
+- influxdb
+- tensorflow
