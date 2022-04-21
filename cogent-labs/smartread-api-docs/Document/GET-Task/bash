@@ -1,0 +1,6 @@
+#!/bin/bash
+MY_API_KEY="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+curl -X GET \
+     -H "Authorization:apikey $MY_API_KEY" \
+     https://api.smartread.jp/v3/task

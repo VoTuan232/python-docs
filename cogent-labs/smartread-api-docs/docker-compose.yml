@@ -1,0 +1,10 @@
+version: '3'
+services:
+    python-smartread-api-docs:
+        build: .
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+        ports:
+            - "8000:8000"
+        volumes:
+            - .:/app

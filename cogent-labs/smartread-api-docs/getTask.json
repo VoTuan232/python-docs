@@ -1,0 +1,299 @@
+{
+  "data": [
+    {
+      "userId": "27f961b4-3cc5-4264-8262-c5ebdaf65b61",
+      "name": "test group 9980 task",
+      "exportSettings": {
+        "aggregation": "oneFilePerTemplate",
+        "type": "excel"
+      },
+      "allowUseOfData": false,
+      "templateIds": ["53e76d95-16cb-4d0c-b9e6-1343a1714eb7"],
+      "requestType": "templateMatchingWithVerification",
+      "modified": "2022-04-21T11:18:03.191Z",
+      "created": "2022-04-21T11:17:17.591Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "e149d4b3-ea16-42bb-bb00-4c13b2cf57bb",
+      "taskId": "d9c4f453-eb8b-4c9b-b5fc-20c572d67ffb",
+      "state": "OCR_COMPLETED",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 3,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 3,
+      "numOfPages": 3
+    },
+    {
+      "userId": "3dcb5b7c-2edb-4f53-82e2-0865c1cb562f",
+      "name": "Group 1 QA  task",
+      "languages": ["ja"],
+      "exportSettings": {
+        "aggregation": "oneFilePerTemplate",
+        "type": "excel"
+      },
+      "allowUseOfData": false,
+      "templateIds": ["53e76d95-16cb-4d0c-b9e6-1343a1714eb7"],
+      "requestType": "form",
+      "modified": "2022-04-21T11:16:41.462Z",
+      "created": "2022-04-21T11:16:15.029Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "621badb5-d763-4b8d-9e80-d4cab8f67eaa",
+      "taskId": "b37f2f9a-8f0a-41ec-866e-d6c7a7c02ec3",
+      "state": "OCR_COMPLETED",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 3,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 3,
+      "numOfPages": 3
+    },
+    {
+      "userId": "3dcb5b7c-2edb-4f53-82e2-0865c1cb562f",
+      "name": "123hd",
+      "exportSettings": {
+        "type": "excel",
+        "aggregation": "oneFilePerTemplate"
+      },
+      "allowUseOfData": true,
+      "templateIds": ["53e76d95-16cb-4d0c-b9e6-1343a1714eb7"],
+      "requestType": "templateMatchingWithVerification",
+      "modified": "2022-04-21T11:09:28.438Z",
+      "created": "2022-04-21T11:08:29.252Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "621badb5-d763-4b8d-9e80-d4cab8f67eaa",
+      "taskId": "4f5b2745-095c-4744-aaad-10712dc4078f",
+      "state": "OCR_COMPLETED",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 3,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 3,
+      "numOfPages": 3
+    },
+    {
+      "userId": "27f961b4-3cc5-4264-8262-c5ebdaf65b61",
+      "name": "123456hd",
+      "exportSettings": {
+        "type": "excel",
+        "aggregation": "oneFilePerTemplate"
+      },
+      "allowUseOfData": false,
+      "templateIds": ["53e76d95-16cb-4d0c-b9e6-1343a1714eb7"],
+      "requestType": "templateMatchingWithVerification",
+      "modified": "2022-04-21T11:09:05.263Z",
+      "created": "2022-04-21T11:08:21.779Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "e149d4b3-ea16-42bb-bb00-4c13b2cf57bb",
+      "taskId": "fa7745b2-9fc9-4514-803e-88fc2cf258be",
+      "state": "OCR_COMPLETED",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 3,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 3,
+      "numOfPages": 3
+    },
+    {
+      "userId": "27f961b4-3cc5-4264-8262-c5ebdaf65b61",
+      "name": "test tt",
+      "exportSettings": {
+        "type": "excel",
+        "aggregation": "oneFilePerTemplate"
+      },
+      "allowUseOfData": false,
+      "templateIds": ["53e76d95-16cb-4d0c-b9e6-1343a1714eb7"],
+      "requestType": "templateMatchingWithVerification",
+      "modified": "2022-04-21T10:06:15.198Z",
+      "created": "2022-04-21T10:03:25.716Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "e149d4b3-ea16-42bb-bb00-4c13b2cf57bb",
+      "taskId": "d1953967-e504-4758-9f17-cf00fad78f20",
+      "state": "OCR_COMPLETED",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 3,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 3,
+      "numOfPages": 3
+    },
+    {
+      "userId": "27f961b4-3cc5-4264-8262-c5ebdaf65b61",
+      "name": "test deploy",
+      "exportSettings": {
+        "type": "excel",
+        "aggregation": "oneFilePerTemplate"
+      },
+      "allowUseOfData": false,
+      "templateIds": ["d2dd5cb5-b2d2-4ae2-89cf-21d340a85a99"],
+      "requestType": "templateMatchingWithVerification",
+      "modified": "2022-04-21T09:48:01.686Z",
+      "created": "2022-04-21T09:47:27.288Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "e149d4b3-ea16-42bb-bb00-4c13b2cf57bb",
+      "taskId": "ea2f8151-893a-4e08-96c2-a568069d2130",
+      "state": "OCR_COMPLETED",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 1,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 1,
+      "numOfPages": 1
+    },
+    {
+      "userId": "bbc801f8-a888-4325-9421-f94ef3bb2c9b",
+      "name": "test 1",
+      "languages": ["ja"],
+      "exportSettings": {
+        "type": "excel",
+        "aggregation": "oneFilePerTemplate"
+      },
+      "allowUseOfData": true,
+      "templateIds": ["6562812b-bd96-42b0-8e32-ceabc2267a6b"],
+      "requestType": "form",
+      "modified": "2022-04-21T09:35:42.641Z",
+      "created": "2022-04-21T09:35:42.640Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "e149d4b3-ea16-42bb-bb00-4c13b2cf57bb",
+      "taskId": "73c3361c-80dc-4a8d-aff5-994e64d423ca",
+      "state": "OCR_RUNNING",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 0,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 0,
+      "numOfPages": 0
+    },
+    {
+      "userId": "27f961b4-3cc5-4264-8262-c5ebdaf65b61",
+      "name": "test1453-5",
+      "exportSettings": {
+        "aggregation": "oneFilePerTemplate",
+        "type": "excel"
+      },
+      "allowUseOfData": false,
+      "templateIds": ["d2dd5cb5-b2d2-4ae2-89cf-21d340a85a99"],
+      "requestType": "templateMatchingWithVerification",
+      "modified": "2022-04-21T09:38:14.270Z",
+      "created": "2022-04-21T09:35:16.831Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "e149d4b3-ea16-42bb-bb00-4c13b2cf57bb",
+      "taskId": "8d3a2d83-8a09-4c9e-9181-6989410bb861",
+      "state": "OCR_COMPLETED",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 1,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 1,
+      "numOfPages": 1
+    },
+    {
+      "userId": "27f961b4-3cc5-4264-8262-c5ebdaf65b61",
+      "name": "test 1 B",
+      "languages": ["ja"],
+      "exportSettings": {
+        "type": "excel",
+        "aggregation": "oneFilePerTemplate"
+      },
+      "allowUseOfData": true,
+      "templateIds": ["53e76d95-16cb-4d0c-b9e6-1343a1714eb7"],
+      "requestType": "form",
+      "modified": "2022-04-21T09:56:08.440Z",
+      "created": "2022-04-21T09:24:50.206Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "e149d4b3-ea16-42bb-bb00-4c13b2cf57bb",
+      "taskId": "a8d77b15-800b-4f77-854e-306034f4b99b",
+      "state": "OCR_COMPLETED",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 3,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 3,
+      "numOfPages": 3
+    },
+    {
+      "userId": "bbc801f8-a888-4325-9421-f94ef3bb2c9b",
+      "name": "huyentesst",
+      "languages": ["ja"],
+      "exportSettings": {
+        "aggregation": "oneFilePerTemplate",
+        "type": "excel"
+      },
+      "allowUseOfData": true,
+      "templateIds": ["53e76d95-16cb-4d0c-b9e6-1343a1714eb7"],
+      "requestType": "form",
+      "modified": "2022-04-21T09:22:55.543Z",
+      "created": "2022-04-21T09:22:55.542Z",
+      "orgId": "5a75f4a1-22de-4fa7-b101-c0f122f5d42f",
+      "groupId": "e149d4b3-ea16-42bb-bb00-4c13b2cf57bb",
+      "taskId": "139e447b-6f21-4fe8-8ca6-c5d0548343fe",
+      "state": "OCR_RUNNING",
+      "requestStateSummary": {
+        "OCR_RUNNING": 0,
+        "OCR_COMPLETED": 0,
+        "OCR_FAILED": 0,
+        "OCR_VERIFICATION_COMPLETED": 0,
+        "SORTING_RUNNING": 0,
+        "SORTING_COMPLETED": 0,
+        "SORTING_FAILED": 0,
+        "SORTING_DROPPED": 0
+      },
+      "numOfRequests": 0,
+      "numOfPages": 0
+    }
+  ],
+  "metadata": { "limit": 10, "offset": 0, "followingPages": 4 }
+}
